@@ -3,7 +3,7 @@ module.exports = {
     title: `Starter Landing Page PaperCSS`,
     description: `A barebone landing page starter with PaperCSS.`,
     author: `@gillkyle, @stefanseegerer`,
-    siteUrl: `https://stefanseegerer.de/gatsby-starter-paper-css-landing-page`,
+    siteUrl: `https://www.stefanseegerer.de/gatsby-starter-paper-css-landing-page`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
