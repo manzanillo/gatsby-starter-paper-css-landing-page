@@ -5,6 +5,7 @@ module.exports = {
     author: `@gillkyle, @stefanseegerer`,
     siteUrl: `https://www.stefanseegerer.de/gatsby-starter-paper-css-landing-page`,
   },
+  pathPrefix: "/gatsby-starter-paper-css-landing-page",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,

@@ -57,7 +57,14 @@ If you just want to see a site online real fast you can deploy a copy of the sit
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/manzanillo/gatsby-starter-paper-css-landing-page)
 
-To create an optimized build of the site run this command
+To create an optimized build of the site
+go into gatsby-config.js and edit (if your URL includes a trailing path like https://abc.website.tld/trailingpath/) or remove this line (if your URL does not include a trailing path, e.g. https://abc.website.tld)
+
+```json
+pathPrefix: "/gatsby-starter-paper-css-landing-page",
+```
+
+run this command
 
 ```bash
 gatsby build
