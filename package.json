@@ -1,0 +1,45 @@
+{
+  "name": "gatsby-starter-paper-css-landing-page",
+  "private": true,
+  "description": "A landing page using Gatsby and PaperCSS",
+  "version": "0.1.0",
+  "author": "Stefan Seegerer (manzanillo)",
+  "dependencies": {
+    "gatsby": "^2.23.3",
+    "gatsby-image": "^2.4.7",
+    "gatsby-plugin-google-analytics": "^2.0.17",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sharp": "^2.6.11",
+    "gatsby-plugin-sitemap": "^2.0.10",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-sharp": "^2.5.5",
+    "papercss": "^1.6.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
